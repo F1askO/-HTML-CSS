@@ -1,0 +1,277 @@
+.first_text
+{
+  color: #fe513f;
+  font-family: helvetica;
+  position: absolute;
+  bottom: 5px;
+}
+
+.second_text
+{
+  color: #5ef5fe;
+  font-family: cyberpunk;
+  font-size: 26pt;
+  position: absolute;
+  top: 100px; left: 50px;
+}
+
+.third_text
+{
+  color: #5ef5fe;
+  font-family: Helvetica;
+  font-size: 26pt;
+  position: absolute;
+  top: 200px; left: 1620px;
+}
+
+.Characteristic 
+{
+  color: #5ef5fe;
+  font-family: helvetica;
+  font-size: 14pt;
+  position: relative;
+  top: 450px; left: 50px;
+}
+
+.other_links
+{
+  color: #fe513f;
+  font-family: cyberpunk;
+  font-size: 26pt;
+  position: absolute;
+  left: 1630px; top: 320px;
+}
+
+.Main_photo
+{
+  position: absolute;
+  top: 150px; left: 50px;
+}
+
+.button_text_one
+{
+  font-family: cyberpunk;
+  font-size: 18pt;
+  text-align: center;
+  color: #f8fe3f;
+  position: relative;
+  left: 30px;
+}
+
+.button_text_two
+{
+  font-family: cyberpunk;
+  font-size: 18pt;
+  text-align: center;
+  color: #f8fe3f;
+  position: relative;
+  left: 50px;
+}
+
+.button_text_three
+{
+  font-family: cyberpunk;
+  font-size: 18pt;
+  text-align: center;
+  color: #f8fe3f;
+  position: relative;
+  left: 65px;
+}
+
+.button_one {
+  height: 100%;
+  position: absolute;
+  right: 20px; top: 400px;
+}
+
+div[class*=container] {
+  text-align: center;
+  width: 100%;
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.button_one_one { background: #00000000; }
+
+.button {
+  position: relative;
+  color: rgb(255, 255, 255);
+  width: 256px;
+  height: 64px;
+  line-height: 64px;
+  transition: all 0.3s;
+  span {
+    transition: all 0.3s;
+    transform: scale(1, 1);
+  }
+}
+
+.button::before, .button::after {
+  content: '';
+  position: absolute;
+  transition: all 0.3s;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.button_one_one_one::before {
+  left: 4px;
+  z-index: 1;
+  
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(0.1, 1);
+}
+
+.button_one_one_one:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.button_one_one_one::after {
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.button_one_one_one:hover::after {
+  transform: scale(1, .1);
+  opacity: 0;
+}
+
+
+.button_two {
+  height: 100%;
+  position: absolute;
+  right: 20px; top: 470px;
+}
+
+div[class*=container] {
+  text-align: center;
+  width: 100%;
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.button_two_two { background: #00000000; }
+
+.button {
+  position: relative;
+  color: white;
+  width: 256px;
+  height: 64px;
+  line-height: 64px;
+  transition: all 0.3s;
+  span {
+    transition: all 0.3s;
+    transform: scale(1, 1);
+  }
+}
+
+.button::before, .button::after {
+  content: '';
+  position: absolute;
+  transition: all 0.3s;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.button_two_two_two::before {
+  left: 4px;
+  z-index: 1;
+  
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(0.1, 1);
+}
+
+.button_two_two_two:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.button_two_two_two::after {
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.button_two_two_two:hover::after {
+  transform: scale(1, .1);
+  opacity: 0;
+}
+
+
+
+.button_three {
+  height: 100%;
+  position: absolute;
+  right: 20px; top: 540px;
+}
+
+div[class*=container] {
+  text-align: center;
+  width: 100%;
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.button_three_three { background: #00000000; }
+
+.button {
+  position: relative;
+  color: white;
+  width: 256px;
+  height: 64px;
+  line-height: 64px;
+  transition: all 0.3s;
+  span {
+    transition: all 0.3s;
+    transform: scale(1, 1);
+  }
+}
+
+.button::before, .button::after {
+  content: '';
+  position: absolute;
+  transition: all 0.3s;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.button_three_three_three::before {
+  left: 4px;
+  z-index: 1;
+  
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(0.1, 1);
+}
+
+.button_three_three_three:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.button_three_three_three::after {
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.button_three_three_three:hover::after {
+  transform: scale(1, .1);
+  opacity: 0;
+}
